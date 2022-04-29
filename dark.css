@@ -1,0 +1,160 @@
+body {
+	border: 25px solid darkgray;
+    background-color: black;
+	padding: 40px;
+	border-radius: 15px;
+}
+
+main {
+	font-family: Arial, Helvetica, sans-serif;
+    color: white;
+	background-color: black;
+}
+
+.main-container {
+	border: 1px solid darkgray;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	background-color: darkgray;
+	background-size: 6px, auto, contain;
+	border-radius: 25px;
+	color: black;
+}
+
+.opis {
+	color: black;
+	background-color: darkgray;
+	border: 2px solid darkgray;
+	border-radius: 45px;
+	padding: 10px;
+	text-align: center;
+	margin: 35px 300px;
+}
+
+a{
+	text-decoration: none;
+    
+}
+
+a:visited {
+	color: rgb(210, 119, 74);
+}
+
+a:link {
+	color: red;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	background: orange;
+}
+
+.akapitNazwa {
+	text-align: center;
+	text-shadow: 1px 1px 1px darkgrey;
+	font-size: 30px;
+	margin-top: 75px;
+}
+
+.akapit,
+ul {
+	border: 1px solid darkgray;
+	padding: 20px;
+	border-radius: 55px;
+	text-align: center;
+	margin: 15px 300px;
+}
+
+.editedText {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.lista {
+	display: inline-table;
+	padding: 5px;
+	text-align: center;
+	margin: 35px 15px;
+}
+
+[edit] {
+	color: darkgoldenrod;
+}
+[edit~="2"] {
+	color: yellow;
+}
+[edit~="pochylenie"] {
+	font-style: italic;
+}
+
+.tabelaAut {
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid darkgray;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+th,
+td {
+	background-color: darkgray;
+	color: black;
+	border: 2px solid darkgray;
+}
+
+img {
+	width: 200px;
+	height: 100px;
+	border-radius: 7px;
+}
+
+.iframe-container {
+	text-align: center;
+}
+.iframe-container iframe {
+	border: 1px solid darkgray;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.podrozdzial {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.formularz {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid darkgray;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.centrum {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+[data-tooltip] {
+	position: relative;
+}
+
+[data-tooltip]:hover::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	margin-top: 5px;
+	padding: 5px;
+	background-color: lightgray;
+}
